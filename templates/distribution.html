@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% set number = 'Каюта №' %}
+    {% for elem in param %}
+        <div>
+            {{ elem }} — {{ number }} {{ loop.index }} {% if loop.first %} капитан корабля {% endif %}
+        </div>
+    {% endfor %}
+{% endblock %}
