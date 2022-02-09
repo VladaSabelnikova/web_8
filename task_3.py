@@ -2,7 +2,7 @@ from typing import Union
 
 from flask import Flask, render_template
 
-from src.const import ALL_PROFESSIONS
+from static.const import ALL_PROFESSIONS
 
 app = Flask(__name__)
 
