@@ -11,9 +11,7 @@ def index(title: str) -> render_template:
 
 @app.route('/training/<prof>')
 def training(prof: str) -> render_template:
-    if prof in ('инженер', 'строитель', 'программист'):
-        return render_template('training.html', number=1)
-    return render_template('training.html', number=2)
+    return render_template('training.html', prof=prof)
 
 
 def main():
