@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <ul>
+        {% for key in param.keys() %}
+            <li>{{ key }}: {{ param[key] }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
