@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <{{ lst }}>
+        {% for elem in professions %}
+            <li>{{ elem }}</li>
+        {% endfor %}
+    </{{ lst }}>
+{% endblock %}
