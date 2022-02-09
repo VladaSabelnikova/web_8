@@ -32,7 +32,7 @@ def list_prof(lst: str) -> Union[render_template, str]:
 
 
 @app.route('/answer')
-@app.route('/auto_answer ')
+@app.route('/auto_answer')
 def auto_answer() -> render_template:
     # test_param — временные данные, потом их подменят на обработанные формы.
     test_param = {
