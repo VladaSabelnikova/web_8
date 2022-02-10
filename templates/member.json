@@ -1,0 +1,49 @@
+{
+    "people":
+            [
+                {
+                    "first_name": "Влада",
+                    "last_name": "Сабельникова",
+                    "profession": ["Программист"],
+                    "path_to_foto": "static/img/foto_1"
+                },
+
+                {
+                    "first_name": "Олег",
+                    "last_name": "Сиденко",
+                    "profession": ["Программист"],
+                    "path_to_foto": "static/img/foto_2"
+                },
+
+                {
+                    "first_name": "Иван",
+                    "last_name": "Рузин",
+                    "profession": ["учитель информатики", "программист"],
+                    "path_to_foto": "static/img/foto_3"
+                },
+                {
+                    "first_name": "Александра",
+                    "last_name": "Селиванова",
+                    "profession": ["программист"],
+                    "path_to_foto": "static/img/foto_4"
+                },
+                {
+                    "first_name": "Елизавета",
+                    "last_name": "Александрова",
+                    "profession": ["программист"],
+                    "path_to_foto": "static/img/foto_5"
+                },
+                {
+                    "first_name": "Тимофей",
+                    "last_name": "Карманов",
+                    "profession": ["программист"],
+                    "path_to_foto": "static/img/foto_6"
+                },
+                {
+                    "first_name": "Иван",
+                    "last_name": "Димов",
+                    "profession": ["программист"],
+                    "path_to_foto": "static/img/foto_7"
+                }
+            ]
+}
