@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Оформление каюты</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Цвет стены</th>
+            <th scope="col">Эмблема</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr>
+          <th scope="col">
+              {% if sex == "male" %}
+                    {% if age < 21 %}
+                            <div class="base_config young_male"></div>
+                    {% else %}
+                            <div class="base_config old_male"></div>
+                    {% endif %}
+              {% else %}
+                    {% if age < 21 %}
+                            <div class="base_config young_female"></div>
+                    {% else %}
+                            <div class="base_config old_female"></div>
+                    {% endif %}
+              {% endif %}
+          </th>
+            <th scope="col">
+                {% if age < 21 %}
+                        <img src="path_to_young_monster.png" alt="Юный марсианин">
+                {% else %}
+                        <img src="path_to_old_monster.png" alt="Взрослый марсианин">
+                {% endif %}
+            </th>
+        </tr>
+
+    </table>
+{% endblock %}
