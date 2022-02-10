@@ -10,3 +10,9 @@ ALL_PROFESSIONS = [
     'верстальщик',
     'тестировщик'
 ]
+
+
+ALL_PATH_IMG_FOR_GALLERY = [
+    'static/img/mars_map_2.png',
+    'static/img/mars_map_3.png',
+]
